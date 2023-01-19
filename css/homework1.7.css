@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+body{
+    display: grid;
+    width: auto; 
+    height: 100vh;
+    place-items: center;
+}
+
+.wrapper{
+    width: 80vh; 
+    background-color: rgb(237, 233, 233);
+    place-self: center;
+    padding: 30px;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+
+}
+
+h2{
+    margin-bottom: 30px;
+    font-size: medium;
+    text-align: center;
+}
+
+.form__register{
+    display: grid;
+    place-items: center;
+    
+}
+
+input{
+    padding: 7px;
+    width: 50%;
+    margin-bottom: 10px;
+    border:rgb(209, 207, 207) 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form__select{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+label{
+    text-align: justify;
+    color: rgba(47, 47, 47, 0.782);
+}
+
+select{
+    margin: 10px 0 10px 0;
+    width: 32%;
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(47, 47, 47, 0.782);
+}
+
+.form__submit{
+    display: grid;
+    place-items: center;
+}
+
+.form__submit button, a{
+    padding: 10px;
+    width: 135%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form__submit p{
+    color: rgba(47, 47, 47, 0.782);
+    font-size: small;
+}
+
+.form__submit button{
+    background-color: rgba(2, 157, 2, 0.644);
+    color: white;
+    border: rgba(2, 157, 2, 0.644) 1px solid;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.form__submit a{
+    text-decoration: none;
+    text-align: center;
+    font-size: medium;
+    background-color: rgba(1, 1, 205, 0.689);
+    color: white;
+    border: rgba(1, 1, 205, 0.689) 1px solid;
+    border-radius: 5px;
+}
+
+.separator{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.separator::before, .separator::after{
+    content: " ";
+    background-color: rgba(47, 47, 47, 0.256);
+    width: 50px;
+    height: 1px;
+    margin: 0 8px;
+}
+
